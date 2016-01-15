@@ -1,3 +1,4 @@
+/// <reference path="references.d.ts" />
 import observable = require("data/observable");
 import http = require("http");
 const format = require("formatstring");
