@@ -22,3 +22,4 @@ TODO
 * switch to gulp
 * convert to angular 2 app
 * bring in some native access to something
+* change title
