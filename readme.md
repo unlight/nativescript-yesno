@@ -16,3 +16,4 @@ TODO
 * unit tests
 * switch to gulp
 * convert to angular 2 app
+* change title
