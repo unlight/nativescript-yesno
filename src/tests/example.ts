@@ -1,12 +1,7 @@
-// A sample Mocha test
-describe('Array', function () {
-	
-	console.log('Array ' , Array);
-	
-	it('should return -1 when the value is not present', function () {
-		console.log('should ');
-		// assert.equal(-1, [1,2,3].indexOf(5));
-		// assert.equal(-1, [1,2,3].indexOf(0));
-	});
+describe("Empty test:", function() {
+
+  it("Check counter.", function() {
+    expect(42).toEqual(42); //Check if the counter equals 42.
+  });
 
 });
