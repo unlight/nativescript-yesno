@@ -1,4 +1,10 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+<Page 
+	xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded"
+	ios:actionBarHidden="true"
+	>
+	<Page.actionBar>
+		 <ActionBar android:title="Android" ios:title="iOS" />
+	</Page.actionBar>
   <StackLayout>
   	<Button text="Yes or No?" tap="{{onTap}}" />
   	<ActivityIndicator height="80" busy="{{isLoading}}" visibility="{{ isLoading ? 'visible' : 'collapse' }}" />
