@@ -1,3 +1,4 @@
+/// <reference path="../references.d.ts" />
 import view = require("ui/core/view");
 import MainViewModel = require("./view-model");
 import {WebView} from "ui/web-view";

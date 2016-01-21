@@ -18,6 +18,7 @@ tns test android
 
 TODO
 ----
+* tap ans show info about response
 * unit real tests
 * switch to gulp
 * convert to angular 2 app
