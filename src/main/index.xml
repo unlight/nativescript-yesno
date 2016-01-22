@@ -1,8 +1,0 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
-  <StackLayout>
-  	<Button text="Yes or No?" tap="{{onTap}}" />
-  	<ActivityIndicator height="80" busy="{{isLoading}}" visibility="{{ isLoading ? 'visible' : 'collapse' }}" />
-    <WebView id="web-view" visibility="{{ isVisible && !isLoading ? 'visible' : 'collapse' }}" src="{{webViewSrc}}" />
-    <Label text="{{answer}}" class="answer" visibility="{{ isVisible && !isLoading ? 'visible' : 'collapse' }}" />  		
-  </StackLayout>
-</Page>
