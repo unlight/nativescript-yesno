@@ -6,9 +6,13 @@
 		 <ActionBar android:title="Android" ios:title="iOS" />
 	</Page.actionBar>
   <StackLayout>
-  	<Button text="Yes or No?" tap="{{onTap}}" cssClass="button-main"/>
+  	<Button text="Yes or No?" tap="{{onTap}}" />
   	<ActivityIndicator height="80" busy="{{isLoading}}" visibility="{{ isLoading ? 'visible' : 'collapse' }}" />
     <WebView id="web-view" visibility="{{ isVisible && !isLoading ? 'visible' : 'collapse' }}" src="{{webViewSrc}}" />
-    <Label text="{{answer}}" class="answer" visibility="{{ isVisible && !isLoading ? 'visible' : 'collapse' }}" />
+    <Label 
+        text="{{answer}}"
+        class="answer"
+        visibility="{{ isVisible && !isLoading ? 'visible' : 'collapse' }}" 
+     />  		
   </StackLayout>
 </Page>
