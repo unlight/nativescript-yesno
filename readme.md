@@ -11,9 +11,20 @@ UNIT TESTS
 tns test android
 ```
 
+WHERE TO FIND EXAMPLES
+----------------------
+### Angular2
+* qsf-angular-nativescript
+
+### NativeScript Plugins
+
+### Native API access
+
+### NativeScript
+* NativeScript/apps
+
 TODO
 ----
 * unit tests
 * switch to gulp
 * convert to angular 2 app
-* change title
